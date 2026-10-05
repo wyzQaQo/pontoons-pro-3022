@@ -1,4 +1,3 @@
-export const dynamicParams = false;
 import { BuoyancyCalculator } from "@/components/interactive/buoyancy-calculator"
 import type { Metadata } from "next"
 import { siteConfig } from "@/config/site"

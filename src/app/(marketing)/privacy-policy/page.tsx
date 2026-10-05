@@ -1,4 +1,3 @@
-export const dynamicParams = false;
 import Link from "next/link"
 import { siteConfig } from "@/config/site"
 

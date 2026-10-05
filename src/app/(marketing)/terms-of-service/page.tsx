@@ -1,4 +1,3 @@
-export const dynamicParams = false;
 import { siteConfig } from "@/config/site"
 
 export const metadata = {
