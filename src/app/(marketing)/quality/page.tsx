@@ -1,3 +1,4 @@
+export const dynamicParams = false;
 "use client"
 import { motion } from "motion/react"
 import { Shield, FlaskConical, FileCheck, Gauge, ClipboardCheck } from "lucide-react"
