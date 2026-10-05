@@ -1,4 +1,3 @@
-export const dynamicParams = false;
 "use client"
 
 import { HeroSection } from "@/components/sections/hero-section"
