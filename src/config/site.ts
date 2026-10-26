@@ -3,8 +3,8 @@ export const siteConfig = {
   tagline: "Modular HDPE Marine Infrastructure",
   description:
     "Premium HDPE modular floating pontoon systems for marinas, resorts, floating solar farms, and industrial marine platforms. Factory-direct pricing, global shipping, 15-year UV warranty.",
-  url: "https://pontoonpro.com",
-  ogImage: "https://pontoonpro.com/og.jpg",
+  url: "https://100pontoon.com",
+  ogImage: "https://100pontoon.com/og.jpg",
   keywords: [
     "HDPE floating dock system",
     "modular pontoon manufacturer",

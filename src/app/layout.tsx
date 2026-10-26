@@ -3,6 +3,7 @@ import { Inter } from "next/font/google"
 import { siteConfig } from "@/config/site"
 import { OrganizationSchema, WebSiteSchema, LocalBusinessSchema } from "@/components/structured-data"
 import "./globals.css"
+import GoogleAnalytics from './components/GoogleAnalytics';
 
 const inter = Inter({
   subsets: ["latin"],
@@ -11,6 +12,7 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
+  verification: { google: "PVJLUPGGrKxO5iGJBpBelbr4ySzNsMUgWXxKgbwL-mA" },
   title: {
     default: `${siteConfig.name} - ${siteConfig.tagline}`,
     template: `%s | ${siteConfig.name}`,
@@ -48,6 +50,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark" suppressHydrationWarning>
       <body className={`${inter.variable} font-sans antialiased`}>
+        <GoogleAnalytics />
         <OrganizationSchema />
         <WebSiteSchema />
         <LocalBusinessSchema />
